@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>rem指定（root）</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="rem.css?6">
+  <link rel="stylesheet" href="common.css?60">
+</head>
+<body>
+  <p class="p-variable-rem">このページのrootのフォントサイズは 1rem で指定されています。</p>
+  <div class="div-fixed is-rem">
+    <h1 class="h1-rem">見出し1 は 2rem です</h1>
+    <h2 class="h2-rem">見出し2 は 1.5rem です</h2>
+    <p class="p-rem">本文は 1rem です。エリアの幅は 300px です。親要素は1remです。</p>
+  </div>
+  <div class="div-variable is-rem">
+    <h1 class="h1-rem">見出し1 は 2rem です</h1>
+    <h2 class="h2-rem">見出し2 は 1.5rem です</h2>
+    <p class="p-rem">本文は 1rem です。エリアの幅は 100% です。親要素は1remです。</p>
+  </div>
+  <div class="div-fixed is-px">
+    <h1 class="h1-px">見出し1 は 32px です</h1>
+    <h2 class="h2-px">見出し2 は 24px です</h2>
+    <p class="p-px">本文は 16px です。エリアの幅は 300px です。親要素は1remです。</p>
+  </div>
+  <div class="div-variable is-px">
+    <h1 class="h1-px">見出し1 は 32px です</h1>
+    <h2 class="h2-px">見出し2 は 24px です</h2>
+    <p class="p-px">本文は 16px です。エリアの幅は 100% です。親要素は1remです。</p>
+  </div>
+  <div class="div-fixed is-em">
+    <h1 class="h1-em">見出し1 は 2em です</h1>
+    <h2 class="h2-em">見出し2 は 1.5em です</h2>
+    <p class="p-em">本文は 1em です。エリアの幅は 300px です。親要素は1remです。</p>
+  </div>
+  <div class="div-variable is-em">
+    <h1 class="h1-em">見出し1 は 2em です</h1>
+    <h2 class="h2-em">見出し2 は 1.5em です</h2>
+    <p class="p-em">本文は 1em です。エリアの幅は 100% です。親要素は1remです。</p>
+  </div>
+  <div class="div-fixed is-em is-parent-px">
+    <h1 class="h1-em">見出し1 は 2em です</h1>
+    <h2 class="h2-em">見出し2 は 1.5em です</h2>
+    <p class="p-em">本文は 1em です。エリアの幅は 300px です。親要素は10pxです。</p>
+  </div>
+  <div class="div-variable is-em is-parent-px">
+    <h1 class="h1-em">見出し1 は 2em です</h1>
+    <h2 class="h2-em">見出し2 は 1.5em です</h2>
+    <p class="p-em">本文は 1em です。エリアの幅は 100% です。親要素は10pxです。</p>
+  </div>
+</body>
+</html>
