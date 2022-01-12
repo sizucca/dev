@@ -7,19 +7,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
-  <link rel="stylesheet" href="rem.css?20222">
+  <link rel="stylesheet" href="rem.css?202223">
 </head>
 <body>
-  <p>このページのrootのフォントサイズは 1rem で指定されています。</p>
+  <p class="variable">このページのrootのフォントサイズは 1rem で指定されています。</p>
   <div class="fixed">
-    <h1>見出し1 は 3rem です</h1>
-    <h2>見出し2 は 2rem です</h2>
-    <p>本文は 1rem です。エリアの幅は 300px です</p>
+    <h1 class="variable">見出し1 は 3rem です</h1>
+    <h2 class="variable">見出し2 は 2rem です</h2>
+    <p class="variable">本文は 1rem です。エリアの幅は 300px です</p>
   </div>
   <div class="variable">
-    <h1>見出し1 は 3rem です</h1>
-    <h2>見出し2 は 2rem です</h2>
-    <p>本文は 1rem です。エリアの幅は 100% です</p>
+    <h1 class="variable">見出し1 は 3rem です</h1>
+    <h2 class="variable">見出し2 は 2rem です</h2>
+    <p class="variable">本文は 1rem です。エリアの幅は 100% です</p>
+  </div>
+  <div class="fixed">
+    <h1 class="fixed">見出し1 は 48px です</h1>
+    <h2 class="fixed">見出し2 は 32px です</h2>
+    <p class="fixed">本文は 16px です。エリアの幅は 300px です</p>
+  </div>
+  <div class="variable">
+    <h1 class="fixed">見出し1 は 48px です</h1>
+    <h2 class="fixed">見出し2 は 32px です</h2>
+    <p class="fixed">本文は 16px です。エリアの幅は 100% です</p>
   </div>
 </body>
 </html>

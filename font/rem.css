@@ -6,25 +6,34 @@ body {
   margin: 0;
   padding: 1rem;
 }
-h1 {
+h1.variable {
   font-size: 3rem;
 }
-h1 {
+h2.variable {
   font-size: 2rem;
 }
-p {
+p.variable {
   font-size: 1rem;
+}
+h1.fixed {
+  font-size: 48px;
+}
+h2.fixed {
+  font-size: 32px;
+}
+p.fixed {
+  font-size: 16px;
 }
 div {
   margin-top: 1rem;
 }
-.fixed {
+div.fixed {
   width: 300px;
-  padding: 1rem;
+  padding: 16px;
   box-sizing: border-box;
   background-color: #ddd;
 }
-.variable {
+div.variable {
   width: 100%;
   padding: 1rem;
   box-sizing: border-box;
