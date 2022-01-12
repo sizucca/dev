@@ -1,4 +1,4 @@
-html {
+html, body {
   font-family: YakuHanJP_Noto, 'Open Sans', 'Noto Sans JP', apple-system, BlinkMacSystemFont, Roboto, 'Lucida Grande', Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
