@@ -24,6 +24,15 @@ body {
 .p-fixed {
   font-size: 16px;
 }
+.h1-variable-em {
+  font-size: 3em;
+}
+.h2-variable-em {
+  font-size: 2em;
+}
+.p-variable-em {
+  font-size: 1em;
+}
 div {
   margin-top: 1rem;
 }
