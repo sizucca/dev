@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 1rem;
+  -webkit-text-size-adjust: 100%;
 }
 .h1-rem {
   font-size: 2rem;
